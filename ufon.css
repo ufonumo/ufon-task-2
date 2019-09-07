@@ -133,6 +133,11 @@ h3{
     color: white;
 }
 
+.submit-btn:hover{ 
+    background-color: #447591;
+    cursor: pointer;
+}
+
 @media only screen and (max-width:900px)
 {
     .profile-info{
