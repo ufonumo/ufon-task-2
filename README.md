@@ -9,7 +9,6 @@ Added CSS styling
 Added a contact form
 
 # ufon-task-5
-Added a php file for contact form submission
+Added a php file for contact form submission and the link to the hosted cv
 
-https://ufonabasi-cv.000webhostapp.com/
-My hosted cv
+https://curriculum-vitae-ufonabasi-umo.000webhostapp.com/
