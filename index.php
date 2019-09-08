@@ -3,49 +3,55 @@
 <head> <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="HTML, CSS, Arcgis">
+    <meta name="robots" content="index,follow">
+    <meta name="language" content="EN">
+    <meta name="distribution" content="global"> 
+    <meta name="rating" content='general'>
+    <meta name="creationdate" content="September 09 2019">
     <link rel="stylesheet" href="ufon.css">
-    <title>ufonabasi's Resume</title>
+    <title>Curriculum vitae by Ufonabasi Umo</title>
 </head>
 <body>
     <!-- This is my CV -->
     <div class="profile-img">
-        <img src="https://res.cloudinary.com/ufonumo/image/upload/v1566585776/IMG_20190123_131320_mccadv.jpg" alt="#">
+        <img src="https://res.cloudinary.com/ufonumo/image/upload/v1566585776/IMG_20190123_131320_mccadv.jpg" alt="profile pic">
     </div>
 
     <div class="profile-info">
         <h1>Ufonabasi Umo</h1>
         <p class="about">I am a fun-loving and jovile person. I am really good in relating with people and very cooperative when it comes to team work . </p>
         <div class="social-media">
-           <a href="http://github.com/ufonumo"> <img src="https://res.cloudinary.com/ufonumo/image/upload/v1566969422/icons8-windows-10-96_imsqcc.png" alt=""> </a>
-            <a href="http://twitter.com/Ufonumo1"><img src="https://res.cloudinary.com/ufonumo/image/upload/v1566969461/icons8-twitter-64_jasahr.png" alt=""> </a>
-            <a href="http://instagram/ufonumo"><img src="https://res.cloudinary.com/ufonumo/image/upload/v1566969446/icons8-instagram-64_knqwwt.png" alt=""></a>
-            <a href="https://wwww.linkedin.com/in/Ufonabasi-umo-879271160"><img src="https://res.cloudinary.com/ufonumo/image/upload/v1566970516/icons8-linkedin-52_juiafv.png" alt=""></a>
+           <a href="http://github.com/ufonumo"> <img src="https://res.cloudinary.com/ufonumo/image/upload/v1566969422/icons8-windows-10-96_imsqcc.png" alt="github"> </a>
+            <a href="http://twitter.com/Ufonumo1"><img src="https://res.cloudinary.com/ufonumo/image/upload/v1566969461/icons8-twitter-64_jasahr.png" alt="twitter"> </a>
+            <a href="http://instagram/ufonumo"><img src="https://res.cloudinary.com/ufonumo/image/upload/v1566969446/icons8-instagram-64_knqwwt.png" alt="instagram"></a>
+            <a href="https://wwww.linkedin.com/in/Ufonabasi-umo-879271160"><img src="https://res.cloudinary.com/ufonumo/image/upload/v1566970516/icons8-linkedin-52_juiafv.png" alt="LinkedIn"></a>
         </div>
         <br>
 
         <h3>Expertise</h3>
         <div class="info">
-            <img src="https://res.cloudinary.com/ufonumo/image/upload/v1566969397/icons8-html-208_bqxcay.png " alt="">
+            <img src="https://res.cloudinary.com/ufonumo/image/upload/v1566969397/icons8-html-208_bqxcay.png " alt="html">
             <p>HTML</p>
         </div>
  
         <div class="info">
-            <img src="https://res.cloudinary.com/ufonumo/image/upload/v1566969377/icons8-css-208_tzw631.png" alt="">
+            <img src="https://res.cloudinary.com/ufonumo/image/upload/v1566969377/icons8-css-208_tzw631.png" alt="css">
             <p>CSS</p>
         </div>
 
         <div class="info">
-            <img src="https://res.cloudinary.com/ufonumo/image/upload/v1566969360/images_o4omn3.jpg  " alt="">
+            <img src="https://res.cloudinary.com/ufonumo/image/upload/v1566969360/images_o4omn3.jpg  " alt="arcgis">
             <p>ARCGIS</p>
         </div>
        
         <div class="info">
-            <img src="https://res.cloudinary.com/ufonumo/image/upload/v1566969318/images_1_bq5alq.jpg " alt="">
+            <img src="https://res.cloudinary.com/ufonumo/image/upload/v1566969318/images_1_bq5alq.jpg " alt="arcgis">
             <p>ARGISOFT</p>
         </div>
                
         <div class="info">
-            <img src="https://res.cloudinary.com/ufonumo/image/upload/v1566969343/icons8-microsoft-word-208_whj fwz.png  " alt="">
+            <img src="https://res.cloudinary.com/ufonumo/image/upload/v1566969343/icons8-microsoft-word-208_whj fwz.png  " alt="microsoft office">
             <p>MICROSOFT OFFICE</p>
         </div>
 
@@ -55,7 +61,7 @@
                
     
                 <li> Name: Ufonabasi Uduak Umo </li> <br>
-                <li> Date of Birth: 16th july 2000 </li><br>
+                <li> Date of Birth: 16th July 2000 </li><br>
                 <li> Phone: 07013504471 </li><br>
                 <li> Email:<a href="google mail">ufonumo@gmail.com</a></li><br>
                 <li> Address: 35 Udosen Uko str. Uyo, Akwa Ibom State </li><br>

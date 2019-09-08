@@ -1,29 +1,36 @@
+
 <?php
-
-    if (isset($_POST['submit'])){
-        $name = $_POST['name'];
-        $visitor_email = $_POST['email'];
-        $title = $_POST['title'];
-        $message = $_POST['message'];
-
-
-        $email_from = 'ufonumo@gmail.com';
-
-        $email_subject = "New Form Submission";
-
-        $email_body = "User Name: $name.\n".
-                        "User Email: $visitor_email.\n".
-                            "User Title: $title.\n".
-                                "User Message: $message.\n";
-
-        $to = "ufonumo@gamil.com";
-    
-        $headers = "From: $email_from \n\n";
-
-        $headers = "Reply-To: $visitor_email \n\n";
-
-        mail($to,$email_subject,$email_body,$headers);
-
-        header("Location: index.php?mailsend");
-    }   
+$action=$_REQUEST['action'];
+if ($action=="index.php") /** display the contact form */
+{
 ?>
+<form action="" method="POST" enctype="multipart/form-data">
+<input type="hidden" name="action" value="submit">
+Your name:<br>
+<input name="name" type="text" value="" size="30"/><br>
+Your email:<br>
+<input name="title" type="text" value="" <br>
+Your Title:<br>
+<input name="email" type="text" value="" size="30"/><br>
+Your message:<br>
+<textarea name="message" rows="7" cols="30"></textarea><br>
+<input type="submit" value="Send email"/>
+</form>
+<?php
+}
+else/* send the submitted data */
+}
+$name=$_REQUEST['name'];
+$email=$_REQUEST['email'];
+$title=$_REQUEST['title']
+$message=$_REQUEST['message'];
+if (($name=="")||($email=="")||($title==")||($message==""))
+{
+echo "All fields are required, please fill <a href=\"\">the form</a> again.";  
+}
+else
+$from="From: $name<$email>\r\nReturn-path: $email";
+$subject="Message sent using your contact form";
+mail("ufonumo@gmail.com", $subject, $message, $from);
+echo "Email sent!";
+}
